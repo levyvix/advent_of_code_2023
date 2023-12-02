@@ -1,7 +1,4 @@
 import re
-import string
-
-# remove letters from text
 
 
 def remove_letters(s: str) -> int:
@@ -28,9 +25,6 @@ if __name__ == "__main__":
         data = f.readlines()
         data = list(map(lambda x: x.strip(), data))
 
-    print(data[:10])
     numbers = list(map(remove_letters, data))
-
-    print(numbers[:10])
 
     print(sum(numbers))

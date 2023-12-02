@@ -32,7 +32,7 @@ def get_digits(s: str) -> int:
     for digit in p:
         try:
             result.append(int(digit))
-        except:
+        except Exception:
             result.append(mapping[digit])
 
     return int("".join([str(result[0]), str(result[-1])]))

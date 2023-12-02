@@ -1,8 +1,5 @@
 from codigo.puzzle_002 import get_digits
 
-import pytest
-
-
 def test_start_letter_end_letter():
     assert get_digits("two4nineeightseven41231232two") == 22
 

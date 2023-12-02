@@ -1,5 +1,4 @@
 from codigo.puzzle_001 import remove_letters
-import pytest
 
 
 
