@@ -1,6 +1,4 @@
 import re
-import string
-# remove letters from text
 
 
 def get_digits(s: str) -> int:
@@ -11,22 +9,25 @@ def get_digits(s: str) -> int:
 
     Returns:
         int: first and last digits
+
+    Examples:
+    >>> get_digits("two2three3four4five5six6seven7eight8nine9")
+    29
     """
 
-
     mapping = {
-        'one':      1,
-        'two':      2,
-        'three':    3,
-        'four':     4,
-        'five':     5,
-        'six':      6,
-        'seven':    7,
-        'eight':    8,
-        'nine':     9
+        "one": 1,
+        "two": 2,
+        "three": 3,
+        "four": 4,
+        "five": 5,
+        "six": 6,
+        "seven": 7,
+        "eight": 8,
+        "nine": 9,
     }
 
-    p = re.findall(r'(?=(\d|one|two|three|four|five|six|seven|eight|nine))', s)
+    p = re.findall(r"(?=(\d|one|two|three|four|five|six|seven|eight|nine))", s)
     result = []
     for digit in p:
         try:
@@ -34,19 +35,7 @@ def get_digits(s: str) -> int:
         except:
             result.append(mapping[digit])
 
-    return int(''.join([str(result[0]), str(result[-1])]))
-
-
-
-
-def debug():
-    stringr = 'two4nineeightseven41231232two'
-    stringr2 = '96vjxjvmzpqtwonineseven'
-
-    print(get_digits(stringr))
-    print(get_digits(stringr2))
-
-
+    return int("".join([str(result[0]), str(result[-1])]))
 
 
 if __name__ == "__main__":
@@ -56,9 +45,4 @@ if __name__ == "__main__":
 
     numbers = list(map(get_digits, data))
 
-
     print(sum(numbers))
-
-    # debug()
-
-
