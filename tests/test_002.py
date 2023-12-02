@@ -18,3 +18,7 @@ def test_eightwo():
 
 def test_nineight():
     assert get_digits("nineight") == 98
+
+
+def test_edge_case():
+    assert get_digits("jcb82eightwond") == 82
