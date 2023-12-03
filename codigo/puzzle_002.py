@@ -39,7 +39,7 @@ def get_digits(s: str) -> int:
 
 
 if __name__ == "__main__":
-    with open("data\\002.txt", "r") as f:
+    with open("data\\day1.txt", "r") as f:
         data = f.readlines()
         data = list(map(lambda x: x.strip(), data))
 
