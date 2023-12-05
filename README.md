@@ -14,3 +14,8 @@ Solution: Regular Expression
 Code location: [Puzzle](codigo/day3.ipynb)
 
 Solution: Regular Expression
+
+# [Day 4: Scratchpads](https://adventofcode.com/2023/day/4)
+Code location [Puzzle](codigo/day4.ipynb)
+
+Solution: Exponents
