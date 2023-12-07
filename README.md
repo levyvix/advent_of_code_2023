@@ -11,9 +11,11 @@ Code location: [Puzzle](codigo/day3.ipynb)
 
 # ★★[Day 4: Scratchpads](https://adventofcode.com/2023/day/4)
 Code location [Puzzle](codigo/day4.ipynb)
+
 Help from [jsbueno](https://www.youtube.com/watch?v=nINYp6Rzpj8)
 
 
 # ★ [Day 5: If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
 Code location [Puzzle](codigo/day5.ipynb)
+
 Help from [jsbueno](https://www.youtube.com/watch?v=GvgH3P5eQIM)
