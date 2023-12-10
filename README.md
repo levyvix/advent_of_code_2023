@@ -25,6 +25,10 @@ Code location [Puzzle](codigo/day5.ipynb)
 
 Help from [jsbueno](https://www.youtube.com/watch?v=GvgH3P5eQIM)
 
-# ★★ [Day 6: Wait For It](https://adventofcode.com/2023/day/5)
+# ★★ [Day 6: Wait For It](https://adventofcode.com/2023/day/6)
 
 Code location [Puzzle](codigo/day6.ipynb)
+
+# ★★ [Day 7: Camel Cards](https://adventofcode.com/2023/day/7)
+
+Code location [Puzzle](codigo/day7.ipynb)
