@@ -38,6 +38,8 @@ def get_digits(s: str) -> int:
     return int("".join([str(result[0]), str(result[-1])]))
 
 
+
+if os.
 if __name__ == "__main__":
     with open("data\\day1.txt", "r") as f:
         data = f.readlines()

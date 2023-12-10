@@ -17,13 +17,13 @@ Code location: [Puzzle](codigo/day3.ipynb)
 
 Code location [Puzzle](codigo/day4.ipynb)
 
-Help from [jsbueno](https://www.youtube.com/watch?v=nINYp6Rzpj8)
+part 2 Help from [jsbueno](https://www.youtube.com/watch?v=nINYp6Rzpj8)
 
 # ★★ [Day 5: If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
 
 Code location [Puzzle](codigo/day5.ipynb)
 
-Help from [jsbueno](https://www.youtube.com/watch?v=GvgH3P5eQIM)
+seed mapping Help from [jsbueno](https://www.youtube.com/watch?v=GvgH3P5eQIM)
 
 # ★★ [Day 6: Wait For It](https://adventofcode.com/2023/day/6)
 
