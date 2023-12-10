@@ -32,3 +32,7 @@ Code location [Puzzle](codigo/day6.ipynb)
 # ★★ [Day 7: Camel Cards](https://adventofcode.com/2023/day/7)
 
 Code location [Puzzle](codigo/day7.ipynb)
+
+# ★ [Day 8: Haunted Wasteland](https://adventofcode.com/2023/day/8)
+
+Code location [Puzzle](codigo/day8.ipynb)
